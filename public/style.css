@@ -1,7 +1,5 @@
-/* All previous styles remain the same... */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-/* --- Reset & Basic Styles --- */
 * {
     margin: 0;
     padding: 0;
@@ -17,10 +15,9 @@ body {
     line-height: 1.6;
     background-color: #f4f7f6;
     color: #333;
-    overflow-x: hidden; /* Prevents horizontal scroll from animations */
+    overflow-x: hidden; 
 }
 
-/* --- Header & Navigation --- */
 header {
     position: sticky;
     top: 0;
@@ -95,7 +92,6 @@ header {
     width: 100%;
 }
 
-/* --- Hero Section & Slider --- */
 #hero {
     height: 95vh;
     padding: 0;
@@ -201,7 +197,6 @@ header {
     box-shadow: 0 6px 20px rgba(232, 119, 34, 0.5);
 }
 
-/* --- Sections --- */
 section {
     padding: 5rem 5%;
     text-align: center;
@@ -217,7 +212,6 @@ section {
     background-color:#fff;
 }
 
-/* --- Services Section --- */
 .services-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -253,7 +247,6 @@ section {
     color: #333;
 }
 
-/* --- NEW: Video Promo Section --- */
 #video-promo {
     position: relative;
     height: 60vh;
@@ -300,7 +293,6 @@ section {
     margin-bottom: 2rem;
 }
 
-/* --- Why Us Section --- */
 .why-us-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -325,7 +317,6 @@ section {
     margin-bottom: 0.5rem;
 }
 
-/* STYLES FOR THE REMOVED STATS CONTAINER */
 .stats-container {
     display: flex;
     justify-content: space-around;
@@ -347,7 +338,6 @@ section {
     font-weight: 700;
 }
 
-/* --- NEW: Testimonials Video Section --- */
 .testimonial-container {
     display: flex;
     align-items: center;
@@ -389,13 +379,11 @@ section {
     color: #005A9E;
 }
 
-/* --- About Section --- */
 .about-content {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* --- Contact Form --- */
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -433,7 +421,6 @@ section {
     box-shadow: 0 0 0 3px rgba(0, 90, 158, 0.2);
 }
 
-/* --- Footer --- */
 footer {
     background-color: #004a80;
     color: white;
@@ -441,7 +428,6 @@ footer {
     padding: 1.5rem 5%;
 }
 
-/* --- Mobile Menu --- */
 .mobile-menu-icon {
     display: none;
     cursor: pointer;
@@ -455,7 +441,6 @@ footer {
     transition: 0.4s;
 }
 
-/* --- Responsive Design --- */
 @media (max-width: 992px) {
     .hero-content h1 {
         font-size: 3rem;
@@ -488,8 +473,7 @@ footer {
     .nav-links {
         display: none;
         position: absolute;
-        top: 66px; /* Adjust based on navbar height */
-        left: 0;
+        top: 66px; 
         right: 0;
         background-color: #fff;
         flex-direction: column;
@@ -515,7 +499,7 @@ footer {
         font-size: 1.1rem;
     }
     .swiper-button-next, .swiper-button-prev {
-        display: none; /* Hide arrows on small screens */
+        display: none;
     }
     .stats-container {
         flex-direction: column;
@@ -532,7 +516,6 @@ footer {
     }
 }
 
-/* --- NEW: Company Info Section --- */
 #company-info {
     background-color: #f4f7f6;
 }
